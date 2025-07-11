@@ -26,7 +26,7 @@ function Card({ photographer, onOpenModal }) {
       </div>
       <button
         onClick={() => onOpenModal(photographer.id)}
-        className='mt-4 bg-black py-2 rounded hover:bg-gray-800 text-sm'
+        className='mt-4 bg-black text-white py-2 rounded hover:bg-gray-800 text-sm'
       >
         View Profile
       </button>
